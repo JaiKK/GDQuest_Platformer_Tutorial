@@ -21,6 +21,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Platformer"
+run/main_scene="res://src/Levels/LevelTemplate.tscn"
 config/icon="res://icon.png"
 
 [input]
@@ -53,4 +54,5 @@ jump={
 
 [rendering]
 
+quality/driver/driver_name="GLES2"
 environment/default_environment="res://default_env.tres"
